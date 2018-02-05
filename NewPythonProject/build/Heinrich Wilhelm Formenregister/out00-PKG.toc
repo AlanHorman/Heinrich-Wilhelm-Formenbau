@@ -1,5 +1,6 @@
 ('C:\\Users\\Ramón Wilhelm\\Documents\\Visual Studio '
- '2015\\Projects\\NewPythonProject\\NewPythonProject\\build\\main\\out00-PKG.pkg',
+ '2015\\Projects\\NewPythonProject\\NewPythonProject\\build\\Heinrich Wilhelm '
+ 'Formenregister\\out00-PKG.pkg',
  {'BINARY': 1,
   'DATA': 1,
   'EXECUTABLE': 1,
@@ -9,7 +10,8 @@
   'PYZ': 0},
  [('out00-PYZ.pyz',
    'C:\\Users\\Ramón Wilhelm\\Documents\\Visual Studio '
-   '2015\\Projects\\NewPythonProject\\NewPythonProject\\build\\main\\out00-PYZ.pyz',
+   '2015\\Projects\\NewPythonProject\\NewPythonProject\\build\\Heinrich '
+   'Wilhelm Formenregister\\out00-PYZ.pyz',
    'PYZ'),
   ('struct', 'c:\\python\\python35-32\\lib\\struct.pyo', 'PYMODULE'),
   ('pyimod01_os_path',
@@ -31,9 +33,10 @@
    'C:\\Users\\Ramón Wilhelm\\Documents\\Visual Studio '
    '2015\\Projects\\NewPythonProject\\NewPythonProject\\main.py',
    'PYSOURCE'),
-  ('main.exe.manifest',
+  ('Heinrich Wilhelm Formenregister.exe.manifest',
    'C:\\Users\\Ramón Wilhelm\\Documents\\Visual Studio '
-   '2015\\Projects\\NewPythonProject\\NewPythonProject\\build\\main\\main.exe.manifest',
+   '2015\\Projects\\NewPythonProject\\NewPythonProject\\build\\Heinrich '
+   'Wilhelm Formenregister\\Heinrich Wilhelm Formenregister.exe.manifest',
    'BINARY')],
  True,
  False,

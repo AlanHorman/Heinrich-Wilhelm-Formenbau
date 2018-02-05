@@ -13,7 +13,7 @@ class MainWindow(QMainWindow):
 
     def initUI(self):
         self.setWindowTitle('Heinrich Wilhelm DUI')
-        self.setWindowIcon(QIcon('C:\Python\Python35-32\DLLs\hw_icon.ico'))
+        self.setWindowIcon(QIcon('hw_icon.ico'))
         self.showMaximized()
 
    # def initMenuBar(self):
@@ -24,23 +24,23 @@ class MainWindow(QMainWindow):
         self.toolbar.setIconSize(QSize(28, 28))
         self.toolbar.setMovable(False);
 
-        createDatabaseIcon = QAction(QIcon('C:\Python\Python35-32\DLLs\Menubar\createdatabase.png'), 'Neue Datenbank erstellen (?)', self)
-        connectDatabaseIcon = QAction(QIcon('C:\Python\Python35-32\DLLs\Menubar\connectdatabase.png'), 'Datenbank verbinden (?)', self)
-        deleteDatabaseIcon = QAction(QIcon('C:\Python\Python35-32\DLLs\Menubar\deletedatabase.png'), 'Datenbank löschen (?)', self)
-        saveIcon  = QAction(QIcon('C:\Python\Python35-32\DLLs\Menubar\disk.png'), 'Speichern (Strg + S)', self)
-        exportIcon = QAction(QIcon('C:\Python\Python35-32\DLLs\Menubar\export.png'), 'Exportieren (?)', self)
-        importIcon = QAction(QIcon('C:\Python\Python35-32\DLLs\Menubar\import.png'), 'Importieren (?)', self)
-        printIcon = QAction(QIcon('C:\Python\Python35-32\DLLs\Menubar\print.png'), 'Drucken (?)', self)
+        createDatabaseIcon = QAction(QIcon('Menubar\createdatabase.png'), 'Neue Datenbank erstellen (?)', self)
+        connectDatabaseIcon = QAction(QIcon('Menubar\connectdatabase.png'), 'Datenbank verbinden (?)', self)
+        deleteDatabaseIcon = QAction(QIcon('Menubar\deletedatabase.png'), 'Datenbank löschen (?)', self)
+        saveIcon  = QAction(QIcon('Menubar\disk.png'), 'Speichern (Strg + S)', self)
+        exportIcon = QAction(QIcon('Menubar\export.png'), 'Exportieren (?)', self)
+        importIcon = QAction(QIcon('Menubar\import.png'), 'Importieren (?)', self)
+        printIcon = QAction(QIcon('Menubar\print.png'), 'Drucken (?)', self)
 
-        undoIcon = QAction(QIcon('C:\Python\Python35-32\DLLs\Menubar\stepback.png'), 'Rückgängig (Strg + Z)', self)
-        redoIcon = QAction(QIcon('C:\Python\Python35-32\DLLs\Menubar\stepforward.png'), 'Wiederholen (Strg + Y)', self)
-        reloadIcon = QAction(QIcon('C:\Python\Python35-32\DLLs\Menubar\windowreload.png'), 'Aktualisieren (F5)', self)
+        undoIcon = QAction(QIcon('Menubar\stepback.png'), 'Rückgängig (Strg + Z)', self)
+        redoIcon = QAction(QIcon('Menubar\stepforward.png'), 'Wiederholen (Strg + Y)', self)
+        reloadIcon = QAction(QIcon('Menubar\windowreload.png'), 'Aktualisieren (F5)', self)
 
-        cutIcon = QAction(QIcon('C:\Python\Python35-32\DLLs\Menubar\scissors.png'), 'Ausschneiden (Strg + X)', self)
-        copyIcon = QAction(QIcon('C:\Python\Python35-32\DLLs\Menubar\copy.png'), 'Kopieren (Strg + C)', self)
-        pasteIcon = QAction(QIcon('C:\Python\Python35-32\DLLs\Menubar\paste.png'), 'Kopieren (Strg + V)', self)
-        deleteIcon = QAction(QIcon('C:\Python\Python35-32\DLLs\Menubar\delete.png'), 'Löschen (Entf)', self)
-        searchIcon = QAction(QIcon('C:\Python\Python35-32\DLLs\Menubar\glass.png'), 'Suchen (Strg + F)', self)
+        cutIcon = QAction(QIcon('Menubar\scissors.png'), 'Ausschneiden (Strg + X)', self)
+        copyIcon = QAction(QIcon('Menubar\copy.png'), 'Kopieren (Strg + C)', self)
+        pasteIcon = QAction(QIcon('Menubar\paste.png'), 'Kopieren (Strg + V)', self)
+        deleteIcon = QAction(QIcon('Menubar\delete.png'), 'Löschen (Entf)', self)
+        searchIcon = QAction(QIcon('Menubar\glass.png'), 'Suchen (Strg + F)', self)
 
         self.toolbar.addAction(createDatabaseIcon)
         self.toolbar.addAction(connectDatabaseIcon)
